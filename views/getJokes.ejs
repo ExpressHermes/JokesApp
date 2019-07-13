@@ -1,0 +1,26 @@
+<% include partials/header %>
+<% var jokeType = data.type %>
+
+<div class="ui container">
+    <div class="ui raised centered yellow card">
+        <div class="content">
+            <% if(jokeType ==="single") { %>
+                <p>
+                    <%= data.joke %>
+                </p>
+            <% } else { %>
+                <p>
+                    <%= data.setup %>
+                </p>
+                <p>
+                    <%= data.delivery %>
+                </p>
+            <% }%>
+        </div>
+        <div class="ui bottom attached button">
+            <a href="/">Get new Joke</a>
+        </div>
+    </div>
+</div>
+
+<% include partials/footer %>
