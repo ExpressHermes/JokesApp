@@ -5,7 +5,7 @@ A random joke generator web app.
  * Fork the repository
 
  * Clone the repository
-  ``` git clone https://github.com/<username>/Instances.git ```
+  ``` git clone https://github.com/<username>/JokesApp.git ```
   where < username > is your username in your bash
 
  * Follow the steps as following in the bash
