@@ -10,11 +10,11 @@ A random joke generator web app.
 
  * Follow the steps as following in the bash
 
-   ``` cd keep-clone ```
+   ``` cd JokesApp ```
 
    ``` npm install ```
 
-   ``` npm start ```
+   ``` node app.js ```
  
  
 Now head over to http://localhost:3000/ to see it working.
