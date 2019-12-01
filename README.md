@@ -18,3 +18,7 @@ A random joke generator web app.
  
  
 Now head over to http://localhost:3000/ to see it working.
+
+
+# Author
+ ### [Shivam Yadav](https://github.com/ExpressHermes)
