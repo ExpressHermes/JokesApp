@@ -1,24 +1,24 @@
-# JokesApp
-A random joke generator web app.
+# Joke App
+A random joke generator using nodejs.
 
-# Steps to run
+## Requirements
+* Nodejs
+* npm
+
+## Steps to run
  * Fork the repository
-
  * Clone the repository
-  ``` git clone https://github.com/<username>/JokesApp.git ```
-  where < username > is your username in your bash
+ * Run the following commands in the cmd
 
- * Follow the steps as following in the bash
-
-   ``` cd JokesApp ```
-
-   ``` npm install ```
-
-   ``` node app.js ```
+   ``` 
+   $ cd JokesApp 
+   $ npm install
+   $ node app.js 
+   ```
  
- 
-Now head over to http://localhost:3000/ to see it working.
+* Now head over to http://localhost:3000/ to see it working.
 
 
-# Author
- ### [Shivam Yadav](https://github.com/ExpressHermes)
+## Contribution Guidelines
+
+See CONTRIBUTING.md
