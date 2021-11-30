@@ -7,7 +7,7 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 app.get("/", function(req, res) {
-    request("https://sv443.net/jokeapi/category/Any", function(err, response, body) {
+    request("https://v2.jokeapi.dev/joke/Any", function(err, response, body) {
         if(err) {
             console.log(err);
         } else {
