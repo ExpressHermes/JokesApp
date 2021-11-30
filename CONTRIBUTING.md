@@ -13,7 +13,7 @@ Pull requests are the best way to propose changes to the codebase. I actively we
 
 1. Fork the repo and create your branch from `master`.
 2. If you've changed APIs, update the documentation.
-3. Ensure the test suite passes.
+3. Comment your code.
 4. Make sure your code lints.[Use Prettier]
 5. Issue that pull request!
 
