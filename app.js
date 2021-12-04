@@ -3,6 +3,8 @@ var request = require("request");
 var app = express();
 var port = process.env.port || 3000;
 
+require('dotenv').config();
+
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
@@ -12,7 +14,7 @@ app.get("/", function(req, res) {
         url: 'https://dad-jokes.p.rapidapi.com/random/joke',
         headers: {
           'x-rapidapi-host': 'dad-jokes.p.rapidapi.com',
-          'x-rapidapi-key': '0fd4d724ffmsh4ea8edb72ad20bdp186caejsn8a504fc2f046',
+          'x-rapidapi-key': process.env.Jokes_API_KEY,
           useQueryString: true
         }
         }, function(err, response, body) {
@@ -34,7 +36,7 @@ app.get("/chuck", function(req, res) {
         headers: {
           accept: 'application/json',
           'x-rapidapi-host': 'matchilling-chuck-norris-jokes-v1.p.rapidapi.com',
-          'x-rapidapi-key': '0fd4d724ffmsh4ea8edb72ad20bdp186caejsn8a504fc2f046',
+          'x-rapidapi-key': process.env.Jokes_API_KEY,
           useQueryString: true
         }}, function(err, response, body) {
         if(err) {
