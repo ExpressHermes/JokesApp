@@ -1,24 +1,24 @@
 <% include partials/header %>
-<% var jokeType = data.type %>
 
 <div class="ui container">
     <div class="ui raised centered yellow card">
         <div class="content">
-            <% if(jokeType ==="single") { %>
+             <% if(data.urlName==="dadJokes") { %>
+               <p> 
+                    <%= data.body.setup %>
+                </p> 
                 <p>
-                    <%= data.joke %>
+                    <%= data.body.punchline %>
                 </p>
-            <% } else { %>
-                <p>
-                    <%= data.setup %>
-                </p>
-                <p>
-                    <%= data.delivery %>
-                </p>
-            <% }%>
-        </div>
-        <div class="ui bottom attached button">
-            <a href="/">Get new Joke</a>
+                <% } else if(data.urlName==="chuckJokes") { %>
+                    <p>
+                        <%= data.body.value %>
+                    </p>
+                    <% }%>
+
+                </div>
+                <div class="ui bottom attached button">
+            <% include partials/jokeTypes %>
         </div>
     </div>
 </div>
