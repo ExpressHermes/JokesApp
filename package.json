@@ -9,6 +9,7 @@
   "author": "Shivam Yadav",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.24.0",
     "body-parser": "^1.19.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
