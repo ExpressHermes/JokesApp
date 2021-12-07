@@ -4,7 +4,7 @@
   "description": "Gives random jokes",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint":"eslint ./"
   },
   "author": "Shivam Yadav",
   "license": "ISC",
@@ -14,5 +14,8 @@
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1"
   }
 }
