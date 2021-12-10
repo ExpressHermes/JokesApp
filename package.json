@@ -4,16 +4,14 @@
   "description": "Gives random jokes",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Shivam Yadav",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "dotenv": "^10.0.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
-    "nodemon": "^2.0.15",
     "request": "^2.88.0"
   }
 }
