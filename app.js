@@ -1,25 +1,26 @@
-var express = require("express");
-var axios = require('axios')
-var app = express();
-var port = process.env.port || 3000;
+/* eslint-disable no-console */
+/* eslint-disable linebreak-style */
+const express = require('express');
+const axios = require('axios');
 
-app.set("view engine", "ejs");
-app.use(express.static("public"))
+const app = express();
+const port = process.env.port || 3000;
 
+app.set('view engine', 'ejs');
+app.use(express.static('public'));
 
-app.get('/',(req,res)=>{
-    axios.get('https://v2.jokeapi.dev/joke/Any')
-    .then(resp=>{
-        const data = resp.data;
-        console.log(data);
-        res.render("getJokes",{data:data})
+app.get('/', (req, res) => {
+  axios.get('https://v2.jokeapi.dev/joke/Any')
+    .then((resp) => {
+      const { data } = resp;
+      console.log(data);
+      res.render('getJokes', { data });
     })
-    .catch(err=>{
-        console.log(err);
-    })
-})
+    .catch((err) => {
+      console.log(err);
+    });
+});
 
-
-app.listen(port, function() {
-   console.log("Server Started!");
+app.listen(port, () => {
+  console.log('Server Started!');
 });

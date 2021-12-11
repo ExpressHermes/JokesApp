@@ -4,7 +4,7 @@
   "description": "Gives random jokes",
   "main": "app.js",
   "scripts": {
-    "lint":"eslint ./"
+    "lint": "eslint ./"
   },
   "author": "Shivam Yadav",
   "license": "ISC",
@@ -16,6 +16,17 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "eslint": "^8.4.1"
-  }
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KryptonANSHU/JokesApp.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/KryptonANSHU/JokesApp/issues"
+  },
+  "homepage": "https://github.com/KryptonANSHU/JokesApp#readme"
 }
