@@ -14,8 +14,7 @@ body {
 ui.container {
     margin-top: 5em;
 }
-
-.fas.fa-heart {
-    color: red;
+.icon{
+    fill: red;
 }
 
