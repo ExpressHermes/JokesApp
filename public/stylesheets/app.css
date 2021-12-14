@@ -19,3 +19,11 @@ ui.container {
     color: red;
 }
 
+.jokeTypeButton{
+    margin-bottom:20px; background-color: #4ECDC4; border: none; border-radius: 10px; font-size: 22px;
+}
+
+.jokeTypeButton a{
+    color: white;
+}
+
