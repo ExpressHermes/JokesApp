@@ -58,6 +58,11 @@ app.get("/getJokes/:type", function (req, res) {
       }
     );
   }
+  else{
+    data={body:"This type of Jokes doesnot exist",urlName: "doesnotExist",}
+    res.render("getJokes", { data: data });
+
+  }
 });
 // app.get("/", function(req, res) {
 //     request("https://v2.jokeapi.dev/joke/Any", function(err, response, body) {
