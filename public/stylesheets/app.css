@@ -1,7 +1,7 @@
 body {
-    background: #4ECDC4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #38b6ff;  /* fallback for old browsers */
+    background: #38b6ff;  /* Chrome 10-25, Safari 5.1-6 */
+    background: #38b6ff; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Poppins';
 
 }
@@ -19,10 +19,26 @@ ui.container {
 }
 
 .jokeTypeButton{
-    margin-bottom:20px; background-color: #4ECDC4; border: none; border-radius: 10px; font-size: 22px;
+    margin-bottom:20px; background-color: white; border: none; border-radius: 5px; font-size: 12px;
+    padding: 2px;
 }
 
 .jokeTypeButton a{
     color: white;
 }
+#Newjokebtn a{
+    background-color: #38b6ff;
+    /* width: 100%;
+    height: 15px; */
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.twitter-icon img , .speech-icon img{
+    /* border: 2px solid black; */
+    margin-bottom: -4.5px;
+}
 
+.ui raised centered yellow card , .ui bottom attached button{
+    border: 5px solid black !important;
+}
