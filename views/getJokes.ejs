@@ -1,7 +1,11 @@
 <% include partials/header %>
 
 <div class="ui container">
+    
     <div class="ui raised centered yellow card">
+        <div class="ui bottom attached button">
+            <% include partials/jokeTypes %>
+        </div>
         <div class="content">
              <% if(data.urlName==="dadJokes") { %>
                <p> 
@@ -19,10 +23,10 @@
                     <% } %>
 
                 </div>
-                <div class="ui bottom attached button">
-            <% include partials/jokeTypes %>
-        </div>
+                <div class="ui bottom attached button" id="Newjokebtn" > 
+                    <a href="/">New Joke</a>
+                    <a class="twitter-icon"><img src="https://img.icons8.com/ios/22/000000/twitter.png"/></a>
+                </div>
     </div>
 </div>
-
 <% include partials/footer %>
