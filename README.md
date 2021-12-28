@@ -51,3 +51,7 @@ A random joke generator where you can select the genre of jokes, you can share t
 
 ## Join US
 Join our [Slack Channel](https://expresshermes-kwoc21.slack.com/join/shared_invite/zt-zrefahmo-NcRHial9jkoZrzZEcFMMTA#/shared-invite/email) 
+
+## Open Source Event
+
+<img  src="https://vchrombiediary.files.wordpress.com/2017/12/screenshot-from-2017-12-05-17-02-03-another-copy-e1512483232128.png" href="https://kwoc.kossiitkgp.org/">
