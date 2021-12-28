@@ -1,9 +1,29 @@
-# Joke App
-A random joke generator using nodejs.
+<h1 align="center">JokesApp</h1>
+
+<p align="center">
+<a href="https://github.com/ExpressHermes/JokesApp"><img src="https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-Green"></a>
+<a href="https://github.com/ExpressHermes/JokesApp"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
+<a href="https://github.com/ExpressHermes/JokesApp"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
+<a href="https://github.com/ExpressHermes/JokesApp"><img src="https://img.shields.io/badge/maintenance-yes-brightgreen"></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/ExpressHermes/JokesApp/stargazers"><img src="https://img.shields.io/github/stars/ExpressHermes/JokesApp?color=0059b3"></a>
+<a href="https://github.com/ExpressHermes/JokesApp/network/members"><img src="https://img.shields.io/github/forks/ExpressHermes/JokesApp?color=yellow"></a>
+<a href="https://github.com/ExpressHermes/JokesApp/graphs/contributors"><img src="https://img.shields.io/github/contributors/ExpressHermes/JokesApp?color=brightgreen"></a>
+<a href="https://github.com/ExpressHermes/JokesApp/issues"><img src="https://img.shields.io/github/issues/ExpressHermes/JokesApp?color=0059b3"></a>
+<a href="https://github.com/ExpressHermes/JokesApp/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/ExpressHermes/JokesApp?color=yellow"></a>
+<a href="https://github.com/ExpressHermes/JokesApp/pulls"><img src="https://img.shields.io/github/issues-pr/ExpressHermes/JokesApp?color=brightgreen"></a>
+<a href="https://github.com/ExpressHermes/JokesApp/issues?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/ExpressHermes/JokesApp?color=0059b3"></a>
+</p>
+A random joke generator where you can select the genre of jokes, you can share that joke on your social media handle.
 
 ## Requirements
 * Nodejs
 * npm
+* CSS
+* HTML
+* Javascript
 
 ## Steps to run
  * Fork the repository
@@ -19,6 +39,19 @@ A random joke generator using nodejs.
 * Now head over to http://localhost:3000/ to see it working.
 
 
-## Contribution Guidelines
+### For guidelines on how to contribute, check out [CONTRIBUTING.md](https://github.com/ExpressHermes/JokesApp/blob/master/CONTRIBUTING.md) 
 
-See CONTRIBUTING.md
+## Contributors
+<br>
+<a href="https://github.com/ExpressHermes/JokesApp/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ExpressHermes/JokesApp" />
+</a>
+<br>
+
+
+## Join US
+Join our [Slack Channel](https://expresshermes-kwoc21.slack.com/join/shared_invite/zt-zrefahmo-NcRHial9jkoZrzZEcFMMTA#/shared-invite/email) 
+
+## Open Source Event
+
+<img  src="https://vchrombiediary.files.wordpress.com/2017/12/screenshot-from-2017-12-05-17-02-03-another-copy-e1512483232128.png" href="https://kwoc.kossiitkgp.org/">
