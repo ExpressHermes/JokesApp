@@ -1,32 +1,42 @@
 <% include partials/header %>
 
 <div class="ui container">
-    
-    <div class="ui raised centered yellow card">
-        <div class="ui bottom attached button">
-            <% include partials/jokeTypes %>
-        </div>
-        <div class="content">
-             <% if(data.urlName==="dadJokes") { %>
-               <p> 
-                    <%= data.body.setup %>
-                </p> 
-                <p>
-                    <%= data.body.punchline %>
-                </p>
-                <% } if(data.urlName==="chuckJokes") { %>
-                    <p>
-                        <%= data.body.value %>
-                    </p>
-                    <% } else{%>
-                        <p>Please enter a valid URL, This type Jokes doesnot exist!!</p>
-                    <% } %>
-
-                </div>
-                <div class="ui bottom attached button" id="Newjokebtn" > 
-                    <a href="/">New Joke</a>
-                    <a class="twitter-icon"><img src="https://img.icons8.com/ios/22/000000/twitter.png"/></a>
-                </div>
+  <div class="ui raised centered yellow card">
+    <div class="ui bottom attached button">
+      <% include partials/jokeTypes %>
     </div>
+    <div class="content">
+      <% if(data.urlName==="dadJokes") { %>
+
+      <p><%= data.body.setup %></p>
+      <p><%= data.body.punchline %></p>
+
+      <% } else if(data.urlName==="chuckJokes") { %>
+
+      <p><%= data.body.value %></p>
+      <% }else if(data.urlName==="geek") { %>
+
+      <p><%= data.body.joke %></p>
+      <% } else if(data.urlName==="manatee") { %>
+
+      <p><%= data.body.setup %></p>
+      <p><%= data.body.punchline %></p>
+
+      <% }else if(data.urlName==="ninja") { %>
+
+      <p><%= data.body[0].joke %></p>
+      <% } else{%>
+
+      <p>Please enter a valid URL, This type Jokes doesnot exist!!</p>
+
+      <% } %>
+    </div>
+    <div class="ui bottom attached button" id="Newjokebtn">
+      <a href="/">New Joke</a>
+      <a class="twitter-icon"
+        ><img src="https://img.icons8.com/ios/22/000000/twitter.png"
+      /></a>
+    </div>
+  </div>
 </div>
 <% include partials/footer %>
