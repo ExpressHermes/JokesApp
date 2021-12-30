@@ -14,9 +14,11 @@
       <% } else if(data.urlName==="chuckJokes") { %>
 
       <p><%= data.body.value %></p>
+
       <% }else if(data.urlName==="geek") { %>
 
       <p><%= data.body.joke %></p>
+
       <% } else if(data.urlName==="manatee") { %>
 
       <p><%= data.body.setup %></p>
@@ -25,6 +27,7 @@
       <% }else if(data.urlName==="ninja") { %>
 
       <p><%= data.body[0].joke %></p>
+
       <% } else{%>
 
       <p>Please enter a valid URL, This type Jokes doesnot exist!!</p>
