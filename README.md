@@ -19,38 +19,42 @@
 A random joke generator where you can select the genre of jokes, you can share that joke on your social media handle.
 
 ## Requirements
-* Nodejs
-* npm
-* CSS
-* HTML
-* Javascript
+
+- Nodejs
+- npm
+- CSS
+- HTML
+- Javascript
 
 ## Steps to run
- * Fork the repository
- * Clone the repository
- * Run the following commands in the cmd
 
-   ``` 
-   $ cd JokesApp 
-   $ npm install
-   $ node app.js 
-   ```
- 
-* Now head over to http://localhost:3000/ to see it working.
+- Fork the repository
+- Clone the repository
+- Run the following commands in the cmd
+- Head over to (https://rapidapi.com/collection/jokes) and generate your own API Key and add it to .env file.
+  For Reference check .env_sample file
 
+  ```
+  $ cd JokesApp
+  $ npm install
+  $ node app.js
+  ```
 
-### For guidelines on how to contribute, check out [CONTRIBUTING.md](https://github.com/ExpressHermes/JokesApp/blob/master/CONTRIBUTING.md) 
+- Now head over to http://localhost:3000/getJokes/dadJokes to see it working.
+
+### For guidelines on how to contribute, check out [CONTRIBUTING.md](https://github.com/ExpressHermes/JokesApp/blob/master/CONTRIBUTING.md)
 
 ## Contributors
+
 <br>
 <a href="https://github.com/ExpressHermes/JokesApp/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ExpressHermes/JokesApp" />
 </a>
 <br>
 
-
 ## Join US
-Join our [Slack Channel](https://expresshermes-kwoc21.slack.com/join/shared_invite/zt-zrefahmo-NcRHial9jkoZrzZEcFMMTA#/shared-invite/email) 
+
+Join our [Slack Channel](https://expresshermes-kwoc21.slack.com/join/shared_invite/zt-zrefahmo-NcRHial9jkoZrzZEcFMMTA#/shared-invite/email)
 
 ## Open Source Event
 
