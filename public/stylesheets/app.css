@@ -17,6 +17,10 @@ ui.container {
     fill: red;
 }
 
+.jokeTypeButton:hover{
+    outline-style: solid;
+}
+
 .jokeTypeButton{
     margin-bottom:20px; 
     background-color: white; 
